@@ -3,7 +3,7 @@ import ProjectForm from "@/components/ProjectForm"
 import { getCurrentUser } from "@/lib/session"
 import { redirect } from "next/navigation"
 
-export const CreateProject = async () => {
+const CreateProject = async () => {
   const session = await getCurrentUser()
 
   if (!session?.user) redirect('/')

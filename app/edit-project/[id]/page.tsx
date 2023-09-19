@@ -5,7 +5,7 @@ import { getProjectDetails } from "@/lib/actions"
 import { getCurrentUser } from "@/lib/session"
 import { redirect } from "next/navigation"
 
-export const EditProject = async ({ params: { id }}: { params: { id: string } }) => {
+const EditProject = async ({ params: { id }}: { params: { id: string } }) => {
   const session = await getCurrentUser()
 
   if (!session?.user) redirect('/')
