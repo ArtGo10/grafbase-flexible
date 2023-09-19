@@ -4,7 +4,7 @@ export const NavLinks = [
   { href: '/', key: 'Learn Development', text: 'Learn Development' },
   { href: '/', key: 'Career Advancement', text: 'Career Advancement' },
   { href: '/', key: 'Hire Developers', text: 'Hire Developers' }
-];
+]
 
 export const categoryFilters = [
   "Frontend",
@@ -93,4 +93,4 @@ export const footerLinks = [
       'Development Industry Trends',
     ],
   },
-];
+]
